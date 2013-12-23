@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3C270DC186824040059CB9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C270DB186824040059CB9A /* Foundation.framework */; };
+		F3C270DE186824040059CB9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C270DD186824040059CB9A /* CoreGraphics.framework */; };
+		F3C270E0186824040059CB9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C270DF186824040059CB9A /* UIKit.framework */; };
+		F3C270E6186824040059CB9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3C270E4186824040059CB9A /* InfoPlist.strings */; };
+		F3C270E8186824040059CB9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C270E7186824040059CB9A /* main.m */; };
+		F3C270EC186824040059CB9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C270EB186824040059CB9A /* AppDelegate.m */; };
+		F3C270EF186824040059CB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C270ED186824040059CB9A /* Main.storyboard */; };
+		F3C270F2186824040059CB9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C270F1186824040059CB9A /* ViewController.m */; };
+		F3C270F4186824040059CB9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C270F3186824040059CB9A /* Images.xcassets */; };
+		F3C270FB186824040059CB9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C270FA186824040059CB9A /* XCTest.framework */; };
+		F3C270FC186824040059CB9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C270DB186824040059CB9A /* Foundation.framework */; };
+		F3C270FD186824040059CB9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C270DF186824040059CB9A /* UIKit.framework */; };
+		F3C27105186824040059CB9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3C27103186824040059CB9A /* InfoPlist.strings */; };
+		F3C27107186824040059CB9A /* BleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C27106186824040059CB9A /* BleDemoTests.m */; };
+		F3C271111868243A0059CB9A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C271101868243A0059CB9A /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3C270FE186824040059CB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C270D0186824040059CB9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C270D7186824040059CB9A;
+			remoteInfo = BleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3C270D8186824040059CB9A /* BleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C270DB186824040059CB9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3C270DD186824040059CB9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3C270DF186824040059CB9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3C270E3186824040059CB9A /* BleDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BleDemo-Info.plist"; sourceTree = "<group>"; };
+		F3C270E5186824040059CB9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3C270E7186824040059CB9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3C270E9186824040059CB9A /* BleDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BleDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F3C270EA186824040059CB9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3C270EB186824040059CB9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3C270EE186824040059CB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C270F0186824040059CB9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3C270F1186824040059CB9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3C270F3186824040059CB9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3C270F9186824040059CB9A /* BleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C270FA186824040059CB9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3C27102186824040059CB9A /* BleDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BleDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F3C27104186824040059CB9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3C27106186824040059CB9A /* BleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BleDemoTests.m; sourceTree = "<group>"; };
+		F3C271101868243A0059CB9A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C270D5186824040059CB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C271111868243A0059CB9A /* CoreBluetooth.framework in Frameworks */,
+				F3C270DE186824040059CB9A /* CoreGraphics.framework in Frameworks */,
+				F3C270E0186824040059CB9A /* UIKit.framework in Frameworks */,
+				F3C270DC186824040059CB9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C270F6186824040059CB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C270FB186824040059CB9A /* XCTest.framework in Frameworks */,
+				F3C270FD186824040059CB9A /* UIKit.framework in Frameworks */,
+				F3C270FC186824040059CB9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3C270CF186824040059CB9A = {
+			isa = PBXGroup;
+			children = (
+				F3C270E1186824040059CB9A /* BleDemo */,
+				F3C27100186824040059CB9A /* BleDemoTests */,
+				F3C270DA186824040059CB9A /* Frameworks */,
+				F3C270D9186824040059CB9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C270D9186824040059CB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C270D8186824040059CB9A /* BleDemo.app */,
+				F3C270F9186824040059CB9A /* BleDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C270DA186824040059CB9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C271101868243A0059CB9A /* CoreBluetooth.framework */,
+				F3C270DB186824040059CB9A /* Foundation.framework */,
+				F3C270DD186824040059CB9A /* CoreGraphics.framework */,
+				F3C270DF186824040059CB9A /* UIKit.framework */,
+				F3C270FA186824040059CB9A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C270E1186824040059CB9A /* BleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F3C270EA186824040059CB9A /* AppDelegate.h */,
+				F3C270EB186824040059CB9A /* AppDelegate.m */,
+				F3C270ED186824040059CB9A /* Main.storyboard */,
+				F3C270F0186824040059CB9A /* ViewController.h */,
+				F3C270F1186824040059CB9A /* ViewController.m */,
+				F3C270F3186824040059CB9A /* Images.xcassets */,
+				F3C270E2186824040059CB9A /* Supporting Files */,
+			);
+			path = BleDemo;
+			sourceTree = "<group>";
+		};
+		F3C270E2186824040059CB9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3C270E3186824040059CB9A /* BleDemo-Info.plist */,
+				F3C270E4186824040059CB9A /* InfoPlist.strings */,
+				F3C270E7186824040059CB9A /* main.m */,
+				F3C270E9186824040059CB9A /* BleDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3C27100186824040059CB9A /* BleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C27106186824040059CB9A /* BleDemoTests.m */,
+				F3C27101186824040059CB9A /* Supporting Files */,
+			);
+			path = BleDemoTests;
+			sourceTree = "<group>";
+		};
+		F3C27101186824040059CB9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3C27102186824040059CB9A /* BleDemoTests-Info.plist */,
+				F3C27103186824040059CB9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C270D7186824040059CB9A /* BleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C2710A186824040059CB9A /* Build configuration list for PBXNativeTarget "BleDemo" */;
+			buildPhases = (
+				F3C270D4186824040059CB9A /* Sources */,
+				F3C270D5186824040059CB9A /* Frameworks */,
+				F3C270D6186824040059CB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleDemo;
+			productName = BleDemo;
+			productReference = F3C270D8186824040059CB9A /* BleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3C270F8186824040059CB9A /* BleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C2710D186824040059CB9A /* Build configuration list for PBXNativeTarget "BleDemoTests" */;
+			buildPhases = (
+				F3C270F5186824040059CB9A /* Sources */,
+				F3C270F6186824040059CB9A /* Frameworks */,
+				F3C270F7186824040059CB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C270FF186824040059CB9A /* PBXTargetDependency */,
+			);
+			name = BleDemoTests;
+			productName = BleDemoTests;
+			productReference = F3C270F9186824040059CB9A /* BleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C270D0186824040059CB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Marshal Wu";
+				TargetAttributes = {
+					F3C270F8186824040059CB9A = {
+						TestTargetID = F3C270D7186824040059CB9A;
+					};
+				};
+			};
+			buildConfigurationList = F3C270D3186824040059CB9A /* Build configuration list for PBXProject "BleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C270CF186824040059CB9A;
+			productRefGroup = F3C270D9186824040059CB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C270D7186824040059CB9A /* BleDemo */,
+				F3C270F8186824040059CB9A /* BleDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C270D6186824040059CB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C270F4186824040059CB9A /* Images.xcassets in Resources */,
+				F3C270E6186824040059CB9A /* InfoPlist.strings in Resources */,
+				F3C270EF186824040059CB9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C270F7186824040059CB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C27105186824040059CB9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C270D4186824040059CB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C270F2186824040059CB9A /* ViewController.m in Sources */,
+				F3C270EC186824040059CB9A /* AppDelegate.m in Sources */,
+				F3C270E8186824040059CB9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C270F5186824040059CB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C27107186824040059CB9A /* BleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3C270FF186824040059CB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C270D7186824040059CB9A /* BleDemo */;
+			targetProxy = F3C270FE186824040059CB9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3C270E4186824040059CB9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C270E5186824040059CB9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3C270ED186824040059CB9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C270EE186824040059CB9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C27103186824040059CB9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C27104186824040059CB9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3C27108186824040059CB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3C27109186824040059CB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C2710B186824040059CB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BleDemo/BleDemo-Prefix.pch";
+				INFOPLIST_FILE = "BleDemo/BleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3C2710C186824040059CB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BleDemo/BleDemo-Prefix.pch";
+				INFOPLIST_FILE = "BleDemo/BleDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3C2710E186824040059CB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BleDemo.app/BleDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BleDemo/BleDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BleDemoTests/BleDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3C2710F186824040059CB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BleDemo.app/BleDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BleDemo/BleDemo-Prefix.pch";
+				INFOPLIST_FILE = "BleDemoTests/BleDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C270D3186824040059CB9A /* Build configuration list for PBXProject "BleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C27108186824040059CB9A /* Debug */,
+				F3C27109186824040059CB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C2710A186824040059CB9A /* Build configuration list for PBXNativeTarget "BleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C2710B186824040059CB9A /* Debug */,
+				F3C2710C186824040059CB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3C2710D186824040059CB9A /* Build configuration list for PBXNativeTarget "BleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C2710E186824040059CB9A /* Debug */,
+				F3C2710F186824040059CB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C270D0186824040059CB9A /* Project object */;
+}
